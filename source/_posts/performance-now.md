@@ -24,7 +24,7 @@ Can you gues what it is? It's the distance light can travel in 10ms. And since d
 
 "HTTP/3? I've just started to use HTTP/2 and now I have to learn a new thing already?" Well, yes and no. The things you know and love about HTTP aren't changing, but the way _they're transported_ will get an upgrade.
 
-You might know that HTTP is built on top of TCP as its transport layer. You might also know that HTTP/2 has a shiney thing called _multiplexing_ which allows you to send multiple resources concurrently over a single connection. This is where TCP is slowing HTTP/2 down though, as TCP packets are always received in order and if a single packet is lost, the entire connection is blocked while that packet is being re-requested -- a problem called "head of line blocking". Even though all your styles and scripts can be sent simultanuously, they'll all be blocked if a single packet of your favicon is dropped.
+You might know that HTTP is built on top of TCP as its transport layer. You might also know that HTTP/2 has a shiney thing called _multiplexing_ which allows you to send multiple resources concurrently over a single connection. This is where TCP is slowing HTTP/2 down though, as TCP packets are always received in order and if a single packet is lost, the entire connection is blocked while that packet is being re-requested — a problem called "head of line blocking". Even though all your styles and scripts can be sent simultanuously, they'll all be blocked if a single packet of your favicon is dropped.
 
 Enter QUIC. QUIC is a new transport layer protocol, which solves this problem by establishing
 multiplexed _connections_ between point A and B. This means that 2 resources being sent concurrently can be sent over 2 different connections, both unable to block the other. HTTP can run over QUIC instead of TCP, and they've decided to call HTTP-over-QUIC 'HTTP/3'. So there you have it.
@@ -45,7 +45,7 @@ Speaking of headers, here are some useful other ones I learnt about:
 * [`Server-Timing`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Server-Timing): can be used to show backend timing metrics directly in the network panel of your browser's developer tools.
 * [`Clear-Site-Data`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Clear-Site-Data): it's like the 'clear site data' button in your browser, but as an HTTP header. If sent, the browser will clear all relevant data for that website. Requires a fairly recent browser, though.
 * [`Expect-CT`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT): makes you less vulnerable to mistakenly issued certificates by letting browsers audit (and possibly report) your certificates using [Certficate Transparency](https://www.certificate-transparency.org/what-is-ct).
-* [`Accept-CH`](https://httpwg.org/http-extensions/client-hints.html`): tells the browser to send along client hints (like `Viewport-Width` or `DPR`) with following requests, which you can use to serve appropriate -- optimized -- assets.
+* [`Accept-CH`](https://httpwg.org/http-extensions/client-hints.html`): tells the browser to send along client hints (like `Viewport-Width` or `DPR`) with following requests, which you can use to serve appropriate — optimized — assets.
 * [`Feature-Policy`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy): indicates what features (like autoplay, speaker, vibration) is the page is allowed to use. Make sure no script on your page can go rogue and start autoplaying video or requesting permissions it shouldn't need.
 * [`Save-Data`](http://webconcepts.info/concepts/http-header/Save-Data): can be used to detect browser Data Saver mode, and to serve lighter or less assets accordingly.
 
@@ -67,7 +67,7 @@ You could also consider newer image formats. WebP has long been supported in Chr
 
 Some quick tips for getting your text to render quickly:
 
-* avoid web fonts where possible -- no font renders faster than a system font. Only load fonts where necessary to give your page personality; this is often not the case with body text.
+* avoid web fonts where possible — no font renders faster than a system font. Only load fonts where necessary to give your page personality; this is often not the case with body text.
 * self host your fonts to reduce connection overhead and reliance on a third party.
 * use [`font-display: swap`](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display) to prevent a flash of invisible text (FOIT)
 * make sure your fallback font resembles your web font as much as possible to minimize the reflow when the font it loaded. Use [Font Style Matcher](https://meowni.ca/font-style-matcher/) to match up the font settings.
