@@ -61,7 +61,7 @@ We also got a list of headers that we should drop from our HTTP responses:
 
 Use [progressive JPEGs](https://www.liquidweb.com/kb/what-is-a-progressive-jpeg/) to make images feel like they're loading faster. This works best when combined when you can actually send multiple images at the same time (like with HTTP/2 multiplexing).
 
-You could also consider newer image formats. WebP has long been supported and Chrome and is now [slowly being adopted by browsers](https://www.zdnet.com/article/firefox-and-edge-add-support-for-googles-webp-image-format/), and it will shave rougly 30% off your images on average. [AVIF](https://en.wikipedia.org/wiki/AV1#AV1_Still_Image_File_Format_%28AVIF%29) is on the horizon though: a new open, royalty-free image format that promises to be about 50% smaller than JPEG. There's no actual browser support for it yet, but if you _really, really_ want it you can embed it in a `<video autoplay muted playsinline>` tag because it's technically a single frame of [AV1](https://en.wikipedia.org/wiki/AV1) video, which is supported by Firefox and Chromium-based browsers. But you really shouldn't.
+You could also consider newer image formats. WebP has long been supported in Chrome and is now [slowly being adopted by browsers](https://www.zdnet.com/article/firefox-and-edge-add-support-for-googles-webp-image-format/), and it will shave rougly 30% off your images on average. [AVIF](https://en.wikipedia.org/wiki/AV1#AV1_Still_Image_File_Format_%28AVIF%29) is on the horizon though: a new open, royalty-free image format that promises to be about 50% smaller than JPEG. There's no actual browser support for it yet, but if you _really, really_ want it you can embed it in a `<video autoplay muted playsinline>` tag because it's technically a single frame of [AV1](https://en.wikipedia.org/wiki/AV1) video, which is supported by Firefox and Chromium-based browsers. But you really shouldn't.
 
 ## Font loading optimizations
 
@@ -78,7 +78,7 @@ Some quick tips for getting your text to render quickly:
 Some performance tools worth mentioning:
 
 * [WebPageTest](https://www.webpagetest.org/): very well known and mentioned in almost every single talk at the conference, but I don't use it often enough. This free tool lets you test the performance of your website from different places in the world, using real browsers and real connection speeds.
-* [Request Map Generator](http://requestmap.webperf.tools/): takes WebPageTest output and turn it into a request map to get a better sense of how your CDNs and third parties are behaving. [This is an example of the output](http://requestmap.webperf.tools/render/150930_6C_8e18a8699be0287083cc5f121a0b18f4/).
+* [Request Map Generator](http://requestmap.webperf.tools/): takes WebPageTest output and turns it into a request map to get a better sense of how your CDNs and third parties are behaving. [This is an example of the output](http://requestmap.webperf.tools/render/150930_6C_8e18a8699be0287083cc5f121a0b18f4/).
 
 ## Conclusion
 
