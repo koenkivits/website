@@ -71,7 +71,7 @@ Text is still the most important part of the web, so it's important to make sure
 * make sure your fallback font resembles your web font as much as possible to minimize the reflow when the font it loaded. Use [Font Style Matcher](https://meowni.ca/font-style-matcher/) to match up the text CSS.
 * use [`font-synthesis`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis) to minimize the reflow of loading additional variants (weights, styles) of your fonts.
 
-## Performance monitoring
+## Measuring performance
 
 It's very hard to optimize when you don't know why your page is slow. Here are some tools to help you discover pain points:
 
