@@ -1,0 +1,12 @@
+menu:
+    Blog: /
+    #Archive: /archives/
+    Twitter: https://twitter.com/koenkivits
+    GitHub: https://github.com/koenkivits
+    #RSS: /atom.xml
+
+favicon: /favicon.png
+logo: /favicon.png
+
+# Copyright Infomation
+startyear: 2018
