@@ -7,7 +7,8 @@
   },
   "scripts": {
     "serve": "hexo server",
-    "build": "hexo generate"
+    "build": "hexo generate && npm run config-headers",
+    "config-headers": "cp ./config/_redirects ./public/"
   },
   "dependencies": {
     "hexo": "^3.7.0",
