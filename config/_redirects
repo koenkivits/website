@@ -2,5 +2,9 @@
 https://kivits.com/* https://koen.kivits.com/:splat 301!
 https://www.kivits.com/* https://koen.kivits.com/:splat 301!
 
-# Optional: Redirect default Netlify subdomain to primary domain
+# Redirect default Netlify subdomain to primary domain
 https://koen.netlify.com/* https://koen.kivits.com/:splat 301!
+
+# Old demo URL redirects
+https://koen.kivits.com/x-nes/ https://demo.kivits.com/x-nes/:splat
+https://koen.kivits.com/nesnes/ https://demo.kivits.com/nesnes/:splat
