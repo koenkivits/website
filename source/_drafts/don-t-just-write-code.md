@@ -16,14 +16,14 @@ Because one of this year's resolutions was to start writing more. Not because I 
 
 ... or maybe not? You probably recognize this scenario: a project is failing and you try to convince your team or management to go in a new direction. You fail at convincing them, the project ultimately fails, and in hindsight your idea might have been better. There's a bit of cheap satisfaction in saying "I told you so!", but that wouldn't be helping anybody.
 
-Now, I don't think I'm always right — being together with my wife for 11 years has put an end to that illusion —, but every time an "I told you so" occured I felt I could have presented my story more clearly. Usually I'm pretty capable of reasoning about problems and solutions, but translating my thoughts into a string of coherent sentences has never been my strong suit. Of course it will be hard for people to listen.
+Now, I don't think I'm always right — being together with my wife for 11 years has put an end to that illusion —, but every time an "I told you so" occurred I felt I could have presented my story more clearly. Usually I'm pretty capable of reasoning about problems and solutions, but translating my thoughts into a string of coherent sentences has never been my strong suit. Of course it will be hard for people to listen.
 
 Most of these times it would have at least helped if I had collected my thoughts on paper: it would have allowed me to have a look from the outside and catch any questions and problems before presenting. Not only would I have had a clearer story to tell; I'd also be better prepared for an argument.
 
 
 ## It's not just communication
 
-Writing things down doesn't come naturely to me: I rarely take notes and I try to retain as much information as possible inside my head alone. Up until college this 'system' performed wonderfully, so there wasn't really a reason to change. But with age come more responsibilities, and with more responsibilities comes more stuff to remember. And there's a hard cap on how much information a brain can juggle at a time.
+Writing things down doesn't come naturally to me: I rarely take notes and I try to retain as much information as possible inside my head alone. Up until college this 'system' performed wonderfully, so there wasn't really a reason to change. But with age come more responsibilities, and with more responsibilities comes more stuff to remember. And there's a hard cap on how much information a brain can juggle at a time.
 
 That's when I started writing down all 'simple' things I had to remember — todo items, appointments, etc. — and it really helps with reducing my stress levels. Now I'm expanding into writing about things I've learned and about ideas I have, hoping it will clear my mind even more. Interesting conference visit? _Write about it!_ Have a vague idea about how writing can improve your life? _Write about it!_
 
