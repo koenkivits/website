@@ -1,7 +1,9 @@
 ---
 title: Don't just write <em>code</em>
 tags: writing
+date: 2018-12-11 21:52:30
 ---
+
 
 _This post originally appeared on the [Fronteers advent calender](https://fronteers.nl/blog/2018/12/schrijf-eens-iets-anders-dan-code) (in Dutch)._
 
