@@ -1,5 +1,5 @@
 ---
-title: Don't just write <em>code</em>
+title: Don't just write code
 tags: writing
 date: 2018-12-11 21:52:30
 ---
