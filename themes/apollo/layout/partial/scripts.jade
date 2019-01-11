@@ -1,12 +1,11 @@
 //- Analytics tracking
 script
-    | var _paq = _paq || [];
-    | _paq.push(['trackPageView']);
-    | _paq.push(['enableLinkTracking']);
-    | (function() {
-    |   var u=(("https:" == document.location.protocol) ? "https" : "http") + "://analytics.kivits.com/";
-    |   _paq.push(['setTrackerUrl', u+'piwik.php']);
-    |   _paq.push(['setSiteId', 1]);
-    |   var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
-    |   g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-    | })();
+    | (function(w,d,t,h,n,l,b) {
+    |   w['tracklessName'] = n;
+    |   w[n]=w[n] || function() {(w[n].q = w[n].q || []).push(arguments)};
+    |   w[n].h = h;
+    |   l=d.getElementsByTagName(t)[0]; b = d.createElement(t); b.src = '//'+h+'/analytics.js';
+    |   b.async = true; l.parentNode.insertBefore(b,l);
+    | })(window, document, 'script', 'analytics.trackless.app', 'tl');
+    | tl('init', 'jmk');
+    | tl('send', 'pageview');
